@@ -22,4 +22,6 @@ Add the API key to your "backend -> .env" file
 **Run project**
 
 **backend**  -   cd backend -> npm run dev
+
+
 **frontend** - cd frontend -> npm start
