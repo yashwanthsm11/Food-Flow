@@ -29,7 +29,7 @@ export default function InvoicePage() {
   const fetchAddress = async ({ lat, lng }) => {
     try {
       const response = await fetch(
-        `https://api.opencagedata.com/geocode/v1/json?q=${lat}+${lng}&key=enter your opencage geocode api key here`
+        `https://api.opencagedata.com/geocode/v1/json?q=${lat}+${lng}&key=enter your opencage geocoding api key here`
       );
       const data = await response.json();
       if (data.results && data.results.length > 0) {
